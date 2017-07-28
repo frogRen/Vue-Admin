@@ -1,0 +1,88 @@
+/**
+ * vue-admin
+ * 补充css样式
+ * author: renzhenguo
+ */
+
+/** 全局 **/
+html,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+
+/** 配合样式 **/
+.mx-margin-5 {
+  margin: 5px;
+}
+.mx-margin-10 {
+  margin: 5px;
+}
+
+.mx-padding-5 {
+  padding: 5px;
+}
+.mx-padding-10 {
+  padding: 10px;
+}
+
+/** 背景颜色 **/
+.mx-bgc-i {
+  background-color: #00c0ef;
+}
+.mx-bgc-s {
+  background-color: #00a65a;
+}
+.mx-bgc-w {
+  background-color: #f39c12;
+}
+.mx-bgc-e {
+  background-color: #dd4b39;
+}
+
+/** 文本颜色 **/
+.mx-text-f {
+  color: #fff;
+}
+.mx-text-i {
+  color: #00c0ef;
+}
+.mx-text-s {
+  color: #13CE66;
+}
+.mx-text-w {
+  color: #F7BA2A;
+}
+.mx-text-e {
+  color: #FF4949;
+}
+
+/** box **/
+.mx-box {
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  transition: .2s;
+  margin: 26px;
+  padding: 16px;
+}
+.mx-box:hover, .mx-box:focus {
+  box-shadow: 0 0 8px 0 rgba(232,237,250,.8), 0 3px 6px 0 rgba(232,237,250,.8);
+}
+.mx-box-header {
+  margin: -16px -16px 16px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.mx-boxsmall {
+  border-radius: 3px;
+  padding: 16px;
+}
+
+/** 修改样式 **/
+.mx-router {
+  text-decoration: none;
+  color: unset;
+}
