@@ -3,7 +3,7 @@
 
 使用vue2.0 + element 的后台模版
 
-模版参考: element: http://element.eleme.io/#/zh-CN
+模版参考: element: http://element.eleme.io/2.0/#/zh-CN
 
 
 #### 使用步骤

@@ -3,8 +3,10 @@ const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const url = require('url')
 
-const proxy = ''
-const rootPath = 'assets/'
+//const proxy = 'http://dev2.imoxiu.cn/~renzhenguo/hew/air/public/admin/'
+//const proxy = 'http://10.0.0.26:10030'
+const proxy = 'http://router.dev.imoxiu.cn/~renzhenguo/explore/imagehash/demo/public/index.php'
+const rootPath = '../../public/admin/assets/'
 const publicPath = 'assets/'
 const port = process.argv[5] || 8080;
 
@@ -68,10 +70,10 @@ module.exports = (options = {}) => ({
  */
 function getDevServer (options) {
     return {
-        host: '127.0.0.1',
+        host: '10.0.0.26',
         port: port,
         proxy: {
-            '/json.php': {
+            '!/': {
                 target: proxy,
                 changeOrigin: true,
             }

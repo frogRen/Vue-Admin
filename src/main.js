@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import router from './router.js'
 
 import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
+import 'element-ui/lib/theme-chalk/index.css'
 import MxAdmin from './assets/package'
 import './assets/css/mx.admin.css'
 import Velocity from 'velocity-animate'

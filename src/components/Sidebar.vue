@@ -83,4 +83,7 @@ export default {
   min-height: 600px;
   overflow-x: hidden;
 }
+.el-menu {
+  background-color: #eef1f6;
+}
 </style>

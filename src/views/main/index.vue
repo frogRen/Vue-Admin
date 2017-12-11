@@ -14,7 +14,7 @@
         </p>
         <p>
           element-ui 组件:
-          <a target=_blank href="http://element.eleme.io/#/zh-CN/component/installation">http://element.eleme.io/#/zh-CN/component/installation</a>
+          <a target=_blank href="http://element.eleme.io/2.0/#/zh-CN">http://element.eleme.io/2.0/#/zh-CN</a>
         </p>
         <p>
           vue知识:
